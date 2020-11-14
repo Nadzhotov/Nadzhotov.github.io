@@ -1,0 +1,81 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: #efefef;
+	font-family: Roboto;	
+}
+main{
+	width: 70%;
+	padding: 50px;
+	margin: auto;
+	background-color: #fff;
+	display: flex;
+	flex-wrap: wrap; 
+	justify-content: center;
+	box-shadow: 0 0 10px 1px rgba(0,0,0,0.2);
+}
+
+@font-face {
+	font-family:Roboto;
+	src: url(../fonts/Roboto-Regular.ttf);
+}
+
+.photo{
+	width: 43%;
+	height: 500px;
+	margin: 20px;
+	background-color: white;
+
+	background-size: cover;/*метод растяжения*/
+	background-position: center;/*ВЫРАВНИВАНИЕ ПО ЦЕНТРУ*/
+	background-repeat: no-repeat;/*не повторять*/
+}
+.photo:hover{
+	box-shadow: 5px 5px 8px purple;
+	transform: scale(1.1) rotate(7deg);
+	transition: 0.8s;
+}
+
+h1{
+	width: 100%;
+	font-size: 48px;
+	text-align: center;
+}
+
+.photo1{
+	background-image: url(../img/img1.png);
+}
+
+.photo2{
+	background-image: url(../img/GIF1.gif);
+}
+
+.photo3{
+	background-image: url(../img/img2.png);
+}
+
+.photo4{
+	background-image: url(../img/gif2.gif);
+}
+
+.photo5{
+	background-image: url(../img/img3.png);
+}
+
+.photo6{
+	background-image: url(../img/6oa.gif);
+}
+
+img{
+	width: 55px;
+	height: 30px;
+
+}
+img:hover{
+	box-shadow: 5px 5px 8px black;
+	transform: scale(1.2);
+	transition: 0.8s;
+}
